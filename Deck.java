@@ -12,7 +12,7 @@ public class Deck {
 			haveused=new ArrayList<Card>();
 			for(int k=0;k<nDeck;k++)
 			{
-				for(int suit=1;suit<4;suit++)
+				for(int suit=1;suit<5;suit++)
 				{
 					for(int num=1;num<14;num++)
 					{
