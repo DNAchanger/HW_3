@@ -14,7 +14,7 @@ public class HW3_DECK {
 		int nDeck=1;
 		Deck deck=new Deck(nDeck);
 		
-		
+		deck.shuffle();
 		
 		Card newCard=deck.getOneCard();
 		newCard.printCard();
