@@ -42,7 +42,10 @@ public class Deck {
 		
 		}
 	
-
+public ArrayList<Card> getAllCards()
+{
+	return cards;
+}
 public void shuffle()
 {
 	Random rnd=new Random();
@@ -61,10 +64,7 @@ public void shuffle()
 	}
 	nused=0;
 }
-public ArrayList<Card> getAllCards()
-{
-	return cards;
-}
+
 public Card getOneCard()
 	{
 		if(cards.isEmpty()==true)
